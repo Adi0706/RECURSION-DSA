@@ -6,7 +6,7 @@ using namespace std;
 bool isSafe(int row , int col , vector<vector<int>> &board , int n){
    int x = row ;
    int y = col ; 
-   //check for samw row 
+   //check for same row 
    while(y>=0){
     if(board[x][y]==1){
         return false ; 
